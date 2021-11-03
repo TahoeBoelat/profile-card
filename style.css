@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./img/bg-pattern-top.svg), url(./img/bg-pattern-bottom.svg), hsl(185, 75%, 39%);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
+}
+.count,
+.title,
+.name,
+.age,
+.location {
+  font-family: "Kumbh sans", sans-serif;
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 345px;
+  height: 425px;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(./img/bg-pattern-card.svg), #fff;
+  background-repeat: no-repeat;
+  border-radius: 25px;
+}
+.img {
+  margin-top: 55px;
+  border-radius: 50px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  margin-top: 25px;
+}
+.age {
+  font-weight: 400;
+}
+.location {
+  margin-top: 15px;
+  font-weight: 400;
+}
+.socmed-content {
+  border-top: 1px solid grey;
+  width: 320px;
+  padding-top: 15px;
+  margin-top: 60px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  text-align: center;
+}
